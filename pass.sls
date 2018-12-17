@@ -6,4 +6,3 @@ password_packages:
       - wget
       - curl
       - git
-      - yubikey-manager

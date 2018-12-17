@@ -7,12 +7,14 @@ base:
     - match: grain
     - keybase
     - slack
+    - pass
     - yubikey
     - kubuntu
   'roles:laptop':
     - match: grain
     - keybase
     - slack
+    - pass
     - yubikey
     - gnome
   'roles:gaming':
