@@ -1,0 +1,2 @@
+yubioath-desktop:
+  pkg.installed

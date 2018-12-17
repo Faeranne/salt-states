@@ -1,0 +1,2 @@
+kubuntu-desktop:
+  pkg.installed
