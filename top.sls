@@ -3,6 +3,7 @@ base:
     - users
     - development
     - dotfiles
+    - packages
   'roles:desktop':
     - match: grain
     - keybase

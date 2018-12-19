@@ -1,5 +1,5 @@
 password_packages:
-  pkg.install:
+  pkg.installed:
     - pkgs:
       - pass
       - xclip
