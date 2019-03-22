@@ -19,6 +19,20 @@ ca-certificates:
 xclip:
   pkg.installed
 
+keybase:
+  pkgrepo.managed:
+    - humanname: thoughtbot
+    - name: deb https://apt.thoughtbot.com/debian/ stable main
+    - file: /etc/apt/sources.list.d/keybase.list
+    - dist: stable
+    - keyid: BE7FEF18
+    - keyserver: pgp.mit.edu
+    - require_in:
+      - pkg: rcm
+  pkg.latest:
+    - name: rcm 
+    - refresh: True
+
 /usr/bin/ffsend:
   file.managed:
     - source: https://github.com/timvisee/ffsend/releases/download/v{{ versions.get("ffsend","") }}/ffsend-v{{ versions.get("ffsend","") }}-linux-x64-static

@@ -3,9 +3,6 @@ dot-files:
     - name: git@github.com:mrmakeit/dotfiles.git
     - target: /home/blixa/.dotfiles/
     - user: blixa
-rcm:
-  pkg:
-    - installed
 rcup:
   cmd.run:
     - user: blixa
